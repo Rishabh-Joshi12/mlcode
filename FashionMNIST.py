@@ -184,24 +184,11 @@ history = model.fit(x_train, y_train,
 score = model.evaluate(x_test, y_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
-
+with open('file.txt', 'w') as f:
+    f.write(str(score[1]))
+model.save('mymodel.h1')
 
 # ### Let's test out our model
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 import cv2
 import numpy as np
@@ -257,31 +244,13 @@ for i in range(0,10):
 cv2.destroyAllWindows()
 
 
-# In[ ]:
 
 
 
 
 
-# In[ ]:
 
 
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
