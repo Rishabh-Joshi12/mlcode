@@ -2,7 +2,7 @@ This project is about the integration of machine learning with devops (jenkins,g
 
 ![devops-to-mlops](https://user-images.githubusercontent.com/64701398/83324663-8fca3d00-a284-11ea-9409-2b453b477ad6.jpg)
 
-Workflow
+Workflow \
 Developer who is working on a machine learning model say for example FashionMNIST model creates a model and upload the code on github.
 From there the role of jenkins starts.
 Jenkins job1 continously monoitors github and as soon as developer pushes code to github it automatically downloads the code to testing machine.
